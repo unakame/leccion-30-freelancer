@@ -32,14 +32,19 @@
     <p class="star2">▬▬▬▬▬▬▬ <span class="fa fa-star fa-lg"></span> ▬▬▬▬▬▬▬</p><br>
 		<div class="images">
 			<div class="container-images">
-				<img class="img-port" src="assets/images/portfolio/cabin.png" alt="">
-				<img class="img-port" src="assets/images/portfolio/cake.png" alt="">
-				<img class="img-port" src="assets/images/portfolio/circus.png" alt="">
+				<img class="img-port" id="cabin" src="assets/images/portfolio/cabin.png" alt="Use this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!">
+				<div id="modal1" class="modal">
+					<span class="close" onclick="document.getElementById('modal1').style.display='none'">&times;</span>
+					<img class="modal-content"id="cabinModal">
+					<div id="caption"></div>
+				</div>
+				<img class="img-port" id="cake" src="assets/images/portfolio/cake.png" alt="">
+				<img class="img-port" id="circus" src="assets/images/portfolio/circus.png" alt="">
 			</div>
 			<div class="container-images">
-				<img class="img-port" src="assets/images/portfolio/game.png" alt="">
-				<img class="img-port" src="assets/images/portfolio/safe.png" alt="">
-				<img class="img-port" src="assets/images/portfolio/submarine.png" alt="">
+				<img class="img-port" id="game" src="assets/images/portfolio/game.png" alt="">
+				<img class="img-port" id="safe" src="assets/images/portfolio/safe.png" alt="">
+				<img class="img-port" id="submarine" src="assets/images/portfolio/submarine.png" alt="">
 			</div>
 		</div>
 	</div><br><br><br><br><br><br>
@@ -66,7 +71,7 @@
 	</div>
 	<div class="container6">
 		<div>
-		 <p>LOCATION</p><p>AROUND THE WEB</p><p>ABOUT FREELANCER</p>
+		 <p class="text6">LOCATION</p><p class="text6">AROUND THE WEB</p><p class="text6">ABOUT FREELANCER</p>
 		</div>
 		<div class="container-icons">
 			<span class="icon-facebook icon"></span>

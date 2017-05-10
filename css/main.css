@@ -1,3 +1,98 @@
 /*
  * Estilos de tu proyecto
  */
+
+ *{
+   margin: 0;
+   font-family: 'Lato', sans-serif;
+
+ }
+
+nav{
+  background-color: #2C3E50;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+}
+
+.title,
+.nav{
+  list-style: none;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.nav1{
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0px 0px 0px 30px;
+}
+
+.nav1:hover{
+  color: #18BC9C;
+}
+
+ul{
+  margin-right: 50px;
+}
+
+#title{
+  font-size: 30px;
+  font-weight: 800;
+}
+
+#title:hover{
+  color: #FFFFFF;
+}
+
+.nav1{
+  font-weight: 600;
+}
+
+#portfolio{
+  margin-left: 580px;
+}
+
+.container2{
+  background-color: #18BC9C;
+  width: 100%;
+}
+
+.image{
+  display: inline-block;
+  text-align: center;
+  padding: 30px;
+  margin-top: 235px;
+}
+
+.profile{
+  margin-left: 475px;
+}
+
+.text{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.white{
+  color: #FFFFFF;
+}
+
+.star{
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.text2{
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px;
+}
+
+.container3{
+  background-color:#FFFFFF;
+  width: 100%;
+}
